@@ -7,8 +7,8 @@ public class Contar {
 
         int contagem = parameter2 - parameter1;
         //realizar o for para imprimir os números com base na variável contagem
-        for (int aux = 1; aux <= contagem; aux++ ){
-            System.out.println(aux);
+        for (int x = 1; x <= contagem; x++ ){
+            System.out.println(x);
         }
     }
 }
