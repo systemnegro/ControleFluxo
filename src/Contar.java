@@ -1,6 +1,6 @@
 public class Contar {
     static void contar(int parameter1, int parameter2 ) throws InvalidParametersException {
-        //validar se parametroUm é MAIOR que parametroDois e lançar a exceção
+        //validar se parameter1 é MAIOR que parameter2 e lançar a exceção
         if (parameter1 > parameter2){
             throw new InvalidParametersException();
         }
