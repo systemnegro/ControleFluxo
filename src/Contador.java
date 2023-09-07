@@ -8,7 +8,7 @@ public class Contador {
         int parameter2 = scanner.nextInt();
 
         try {
-            //chamando o método contendo a lógica de contagem
+            //chamando o método 
             Contar.contar(parameter1, parameter2);
 
         }catch (InvalidParametersException exception) {
